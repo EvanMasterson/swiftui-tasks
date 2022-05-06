@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D29F7DE282283D100B74566 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29F7DD282283D100B74566 /* Task.swift */; };
+		7D29F7E028229A3E00B74566 /* NightWatchTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D29F7DF28229A3E00B74566 /* NightWatchTasks.swift */; };
 		7D86AF4D27ECC23D00D952B1 /* NightWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D86AF4C27ECC23D00D952B1 /* NightWatchApp.swift */; };
 		7D86AF4F27ECC23D00D952B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D86AF4E27ECC23D00D952B1 /* ContentView.swift */; };
 		7D86AF5127ECC23F00D952B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D86AF5027ECC23F00D952B1 /* Assets.xcassets */; };
 		7D86AF5427ECC23F00D952B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D86AF5327ECC23F00D952B1 /* Preview Assets.xcassets */; };
+		7D8DBB1E27EE0BE3003A3E2E /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8DBB1D27EE0BE3003A3E2E /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D29F7DD282283D100B74566 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		7D29F7DF28229A3E00B74566 /* NightWatchTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchTasks.swift; sourceTree = "<group>"; };
 		7D86AF4927ECC23D00D952B1 /* NightWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D86AF4C27ECC23D00D952B1 /* NightWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightWatchApp.swift; sourceTree = "<group>"; };
 		7D86AF4E27ECC23D00D952B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7D86AF5027ECC23F00D952B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D86AF5327ECC23F00D952B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D8DBB1D27EE0BE3003A3E2E /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		7D9914F328254D3300FE0CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +58,14 @@
 		7D86AF4B27ECC23D00D952B1 /* NightWatch */ = {
 			isa = PBXGroup;
 			children = (
+				7D9914F328254D3300FE0CE9 /* Info.plist */,
 				7D86AF4C27ECC23D00D952B1 /* NightWatchApp.swift */,
 				7D86AF4E27ECC23D00D952B1 /* ContentView.swift */,
 				7D86AF5027ECC23F00D952B1 /* Assets.xcassets */,
 				7D86AF5227ECC23F00D952B1 /* Preview Content */,
+				7D8DBB1D27EE0BE3003A3E2E /* DetailsView.swift */,
+				7D29F7DD282283D100B74566 /* Task.swift */,
+				7D29F7DF28229A3E00B74566 /* NightWatchTasks.swift */,
 			);
 			path = NightWatch;
 			sourceTree = "<group>";
@@ -137,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D29F7DE282283D100B74566 /* Task.swift in Sources */,
 				7D86AF4F27ECC23D00D952B1 /* ContentView.swift in Sources */,
 				7D86AF4D27ECC23D00D952B1 /* NightWatchApp.swift in Sources */,
+				7D8DBB1E27EE0BE3003A3E2E /* DetailsView.swift in Sources */,
+				7D29F7E028229A3E00B74566 /* NightWatchTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,24 +283,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NightWatch/Preview Content\"";
-				DEVELOPMENT_TEAM = SN9C729QMM;
+				DEVELOPMENT_TEAM = CU68V75H9C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NightWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanmasterson.NightWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -298,24 +312,24 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NightWatch/Preview Content\"";
-				DEVELOPMENT_TEAM = SN9C729QMM;
+				DEVELOPMENT_TEAM = CU68V75H9C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NightWatch/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanmasterson.NightWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
